@@ -1,0 +1,19 @@
+header {
+  height: 10vh;
+  width: 100vw;
+}
+main {
+  height: 90vh;
+  width: 100vw;
+  background-image: url('../public/images/bg.jpg');
+  background-size: cover;
+} 
+.unit {
+  background-color: aqua;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid rgb(0, 136, 255);
+}
