@@ -1,19 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 header {
   height: 10vh;
   width: 100vw;
+  background-color: rgb(28, 237, 206);
 }
 main {
   height: 90vh;
   width: 100vw;
   background-image: url('../public/images/bg.jpg');
   background-size: cover;
+  background-position: center center;
 } 
 .unit {
   background-color: aqua;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
   padding: 10px;
+  margin: 10px;
   text-align: center;
   border: 3px solid rgb(0, 136, 255);
+  height: 100px;
+  width: 100px;
 }
