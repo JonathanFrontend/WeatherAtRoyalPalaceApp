@@ -17,11 +17,15 @@ main {
 } 
 .unit {
   background-color: aqua;
-  border-radius: 50%;
+  border-radius: 15px;
   padding: 10px;
   margin: 10px;
   text-align: center;
   border: 3px solid rgb(0, 136, 255);
   height: 100px;
   width: 100px;
+}
+.marked {
+  background-color: greenyellow;
+  border: 2px solid greenyellow;
 }

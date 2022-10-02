@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Value({value, unit}) {
+function Value({name, value, unit}) {
   return (
     <span className='unit'>
-        {!isNaN(value) ? value : '--'} {unit}
+       {name} {!isNaN(value) ? value : '--'} {unit}
     </span>
   )
 }
