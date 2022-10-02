@@ -14,6 +14,8 @@ main {
   background-image: url('../public/images/bg.jpg');
   background-size: cover;
   background-position: center center;
+  padding: 10px;
+  position: relative;
 } 
 .unit {
   background-color: aqua;
@@ -28,4 +30,35 @@ main {
 .marked {
   background-color: greenyellow;
   border: 2px solid greenyellow;
+}
+.bookmark {
+  background-color: antiquewhite;
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.bookmark > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookmark div center {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bookmark div center span {
+  width: fit-content  !important;
+  height: fit-content !important;
+}
+.x {
+  color: red;
+}
+.x:hover {
+  color: brown;
 }
